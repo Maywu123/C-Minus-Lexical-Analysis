@@ -1,0 +1,114 @@
+*****************************************
+C-Minus Lexical Analazer Result:
+*****************************************
+          reserved word:int
+          ID,name=max
+          (
+          reserved word:int
+          ID,name=x
+          ,
+          reserved word:int
+          ID,name=y
+          ,
+          reserved word:int
+          ID,name=z
+          )
+          {
+          reserved word:int
+          ID,name=result
+          ;
+          reserved word:if
+          (
+          ID,name=x
+          >
+          ID,name=y
+          )
+          {
+          ID,name=result
+          =
+          ID,name=x
+          ;
+          reserved word:if
+          (
+          ID,name=z
+          >
+          ID,name=result
+          )
+          {
+          ID,name=result
+          =
+          ID,name=x
+          /
+          ID,name=z
+          ;
+          }
+          }
+          reserved word:else
+          {
+          ID,name=result
+          =
+          ID,name=y
+          ;
+          reserved word:if
+          (
+          ID,name=z
+          >
+          ID,name=result
+          )
+          {
+          ID,name=result
+          =
+          ID,name=z
+          ;
+          }
+          }
+          reserved word:return
+          ID,name=result
+          ;
+          }
+          reserved word:void
+          ID,name=main
+          (
+          reserved word:void
+          )
+          {
+          reserved word:int
+          ID,name=a
+          ;
+          reserved word:int
+          ID,name=b
+          ;
+          reserved word:int
+          ID,name=c
+          ;
+          ID,name=a
+          =
+          ID,name=input
+          (
+          )
+          ;
+          ID,name=b
+          =
+          ID,name=input
+          (
+          )
+          ;
+          ID,name=c
+          =
+          ID,name=input
+          (
+          )
+          ;
+          ID,name=output
+          (
+          ID,name=max
+          (
+          ID,name=a
+          ,
+          ID,name=b
+          ,
+          ID,name=c
+          )
+          )
+          ;
+          }
