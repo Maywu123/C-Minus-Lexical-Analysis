@@ -1,2 +1,2 @@
-# C-Minus-Scanner
-C-Minus Scanner
+# C-Minus-Lexical-Analysis
+C-Minus Lexical-Analysis written in Java
